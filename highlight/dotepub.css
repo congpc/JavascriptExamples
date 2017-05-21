@@ -1,0 +1,139 @@
+#logo {
+	display: inline;
+	border: 0;
+	height: 32px;
+	width: 160px;
+	margin: 0 0 2em 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	margin: 1em;
+	font-family: georgia, times new roman, times roman, times, roman, serif;
+}
+
+#epub-title {
+	padding-top: 50px;
+}
+
+#epub-title div {
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #d5eeab;
+}
+
+#epub-title img {
+	border:0;
+	height: 32px;
+	width: 160px;
+}
+
+h2, h3, h4, h5, h6 {
+	margin: 1.5em 0 1em 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+div, p.img {
+	margin: 1em 0;
+	text-align: justify; 
+	text-indent: 0;
+}
+
+p {
+	margin: 0;
+	text-align: justify; 
+	text-indent: 2em;
+}
+span.filler {
+	padding-right: 2em;
+}
+
+/*p:first-child*/ p.first-child {
+	text-indent: 0;
+}
+
+/*
+p.first-child:first-line {
+	font-variant: small-caps;
+}
+*/
+
+/*********************************/
+
+#epub-title h2,#epub-title h3,#disclaimer h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#epub-title h1 {
+	margin: 0 0 1em 0;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#epub-title h2, #epub-title h3 {
+	font-weight: normal;
+	font-size: 1.1em;
+}
+#disclaimer h2 {
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center;
+}
+#epub-title div, #epub-title h1, #epub-title h2, #epub-title h3 {
+	text-align: center;
+	padding: 0 0.5em;
+}
+#epub-title div {
+	margin-top: 1em;
+}
+
+#disclaimer {
+	margin-top: 2em;
+}
+#disclaimer p, #disclaimer .url {
+	text-indent: 0;
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+pre, code, tt, kbd {
+	font-size: 75%;
+}
+pre {
+	white-space: pre-wrap;
+	text-align: left;
+}
+
+/* no sembla que funcioni... */
+div.dotEPUBfn {
+	border-top: 1px solid black;
+	margin-top: 0.5em;
+	padding-top: 0.5em;
+}
+div.dotEPUBfn li p {
+	text-indent: 0;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+/* Si no s'ha eliminat (per error) #dotepub, l'ocultem */
+#dotepub #status, .dotEPUBremove {
+	display: none ! important;
+}
+
+#donate {
+	margin: 2em;
+	padding: 1em;
+	border: 0.5em solid green;
+	text-align: left;
+	background-color: #d5eeab;
+}
+
+/* Kindle disponible #toc a toc; no utilitzat */
